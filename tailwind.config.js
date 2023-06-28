@@ -14,7 +14,21 @@ module.exports = {
       },
       fontFamily:{
         rubik: ['"Rubik"', "sans-serif"],
-      }
+      },
+      // keyframes:{
+      //   wave:{
+      //     '0%':{transform:rotate(0.0)},
+      //     '15%':{transform:rotate(14.0)},
+      //     '30%':{transform:rotate(-8.0)},
+      //     '40%':{transform:rotate(14.0)},
+      //     '50%':{transform:rotate(-4.0)},
+      //     '60%':{transform:rotate(10.0)},
+      //     '70%':{transform:rotate(0.0)},
+      //     '100%':{transform:rotate(0.0)},
+      //   }
+      // },
+      // animation:{
+      //   wave:'wave 1.5s infinite'      }
     },
   },
   plugins: [],
