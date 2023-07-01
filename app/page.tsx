@@ -1,5 +1,7 @@
 import IntroText from '@/components/Intro/intro.text'
 import Navbar from '@/components/Nav/Navbar'
+import ProfileDetail from '@/components/Profile/profile.detail'
+import ShowSkill from '@/components/Skills/skill.page'
 import ProjectsPage from '@/components/projects/project.page'
 import Image from 'next/image'
 
@@ -9,6 +11,8 @@ export default function Home() {
       <Navbar/>
       <IntroText/>
       <ProjectsPage/>
+      <ProfileDetail/>
+      <ShowSkill/>
     </main>
   )
 }

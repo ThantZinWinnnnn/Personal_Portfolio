@@ -26,7 +26,7 @@ const IntroText = () => {
         <p className="uppercase text-base tracking-widest font-bold font-rubik">
             web developer based in myanmar
           </p>
-        <button className="mx-auto ">
+        <button className="mx-auto">
           <svg
             className="w-[50px] h-[55px] hover:text-green-500"
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const IntroText = () => {
                 <path
                   stroke-linecap="round"
                   d="M12 14v4"
-                  className="animate-bounce"
+                  className="animate-bounce "
                 />
               </g>
             </g>

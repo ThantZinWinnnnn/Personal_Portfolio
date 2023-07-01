@@ -22,7 +22,7 @@ const navLists = [
 
 const Navbar = () => {
   return (
-    <nav className='flex items-center justify-between text-white text-sm sticky top-0 backdrop-blur-md h-[48px]'>
+    <nav className='flex items-center justify-between text-white text-sm sticky top-0 backdrop-blur-md h-[48px] pt-6'>
         <div className='flex items-center'>
             Logo
         </div>
