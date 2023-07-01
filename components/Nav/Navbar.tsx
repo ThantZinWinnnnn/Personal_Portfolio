@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import {IconSun} from "@tabler/icons-react"
 const navLists = [
