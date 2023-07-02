@@ -5,7 +5,7 @@ const text = ["T", "H", "A", "N", "T", " ", "Z", "I", "N", " ", "W", "I", "N"];
 
 const IntroText = () => {
   return (
-    <section className="text-white h-[calc(100vh-48px)] flex items-center justify-center">
+    <section className="text-white h-screen flex items-center justify-center">
       <div className="flex flex-col gap-20 text-center mt-14">
         <div className="flex flex-col gap-10">
           <h1 className="text-8xl font-extrabold">

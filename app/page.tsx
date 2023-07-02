@@ -1,3 +1,5 @@
+import Contact from '@/components/Contact/Contact'
+import Footer from '@/components/Footer/Footer'
 import IntroText from '@/components/Intro/intro.text'
 import Navbar from '@/components/Nav/Navbar'
 import ProfileDetail from '@/components/Profile/profile.detail'
@@ -8,11 +10,12 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="h-screen container mx-auto">
-      <Navbar/>
+      
       <IntroText/>
       <ProjectsPage/>
       <ProfileDetail/>
       <ShowSkill/>
+      <Contact/>
     </main>
   )
 }
