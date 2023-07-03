@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 
 const Contact = () => {
   return (
-    <section className="h-screen pt-16 flex flex-col justify-between">
+    <section id="contact" className="h-screen pt-16 flex flex-col justify-between">
       <div className="w-full flex items-center">
         <MessageForm />
         <MapChart/>

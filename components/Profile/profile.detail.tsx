@@ -6,7 +6,7 @@ import {IconMail,IconDownload} from  "@tabler/icons-react"
 
 const ProfileDetail = () => {
   return (
-    <section className="h-auto pb-12 text-white  max-w-[80rem] mx-auto mt-48 mb-20">
+    <section  data-scroll data-scroll-speed="0.5" className="h-auto pb-12 text-white  max-w-[80rem] mx-auto mt-48 mb-20">
       <h3 className="text-center my-16 text-3xl font-rubik font-bold">
         Who am I ?
       </h3>

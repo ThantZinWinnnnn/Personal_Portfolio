@@ -1,6 +1,8 @@
+
 import Navbar from "@/components/Nav/Navbar";
 import "./globals.css";
 import { Inter, Poppins } from "next/font/google";
+
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -18,6 +20,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+
   return (
     <html lang="en">
       <body className={`${poppins.className} bg-[#11122B] overflow-y-scroll`}>

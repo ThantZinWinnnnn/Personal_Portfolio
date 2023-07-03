@@ -95,7 +95,7 @@ const MessageForm = () => {
           />
           <Button
             type="submit"
-            className="bg-pink-500 text-white hover:text-white hover:bg-pink-400 w-full"
+            className="bg-pink-500 text-white hover:text-white hover:bg-pink-400 w-full py-5 font-semibold"
           >
             Submit
           </Button>
