@@ -44,12 +44,12 @@ const MessageForm = () => {
     console.log(values);
   }
   return (
-    <section className="w-1/2 flex flex-col items-center">
+    <section className="w-full sm:w-1/2 flex flex-col items-center px-4 sm:pl-12 lg:pl-0">
       <h4 className="text-2xl text-center font-semibold font-rubik text-white mb-8">
         Contact Me
       </h4>
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 w-[60%]">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 w-full lg:w-[60%]">
           <FormField
             control={form.control}
             name="username"

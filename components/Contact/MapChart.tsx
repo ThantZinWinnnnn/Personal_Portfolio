@@ -17,7 +17,8 @@ const MapChart = () => {
         center: [-5, -3],
         scale: 1100
       }}
-      style={{width:"50%",height:"100%"}}
+      className="!w-full sm:!w-[40%] lg:!w-[50%] !h-full"
+      // style={{width:"50%",height:"100%"}}
     >
       <Geographies
         geography="/features.json"

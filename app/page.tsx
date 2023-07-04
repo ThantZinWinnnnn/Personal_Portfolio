@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="h-screen container mx-auto">
+    <main className="h-screen lg:container lg:mx-auto">
       <IntroText />
       <ProjectsPage />
       <ProfileDetail />

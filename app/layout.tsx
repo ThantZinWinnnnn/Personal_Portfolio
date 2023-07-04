@@ -24,7 +24,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-[#11122B] overflow-y-scroll`}>
+      <body className={`${poppins.className} bg-[#11122B] overflow-y-scroll w-screen`}>
         <Navbar/>
         {children}
       </body>
