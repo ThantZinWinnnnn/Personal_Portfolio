@@ -43,7 +43,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={-30}
-            duration={900}
+            duration={1000}
             className="hover:cursor-pointer hover:text-green-600 lg:!text-base  2xl:!text-lg font-semibold"
             activeStyle={{
               color: "#16a34a",

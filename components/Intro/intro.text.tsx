@@ -6,8 +6,8 @@ const text = ["T", "H", "A", "N", "T", " ", "Z", "I", "N", " ", "W", "I", "N"];
 const IntroText = () => {
   return (
     <section id="home" data-scroll data-scroll-speed="0.3" className="text-white h-screen flex items-center justify-cente box-border ">
-      <div className="flex flex-col gap-20 text-center mt-14 box-border w-full overflow-hidden">
-        <div className="flex flex-col gap-4 sm:gap-10">
+      <div className="flex flex-col gap-40 text-center mt-32 box-border w-full overflow-hidden">
+        <div className="flex flex-col gap-10 sm:gap-14">
           <h1 className="md:text-2xl xl:text-8xl font-extrabold">
             Hey<span className="hover:animate-pulse inline-block">👋</span>I am,
           </h1>
@@ -15,18 +15,18 @@ const IntroText = () => {
             {text.map((text, i) => (
               <span
                 key={i}
-                className="inline-block text-[2.5rem] sm:text-7xl md:text-8xl lg:text-8xl  whitespace-pre font-extrabold font-rubik"
+                className="inline-block text-[2.5rem] sm:text-7xl md:text-8xl lg:text-8xl  whitespace-pre font-extrabold font-rubik "
               >
                 {text}
               </span>
             ))}
           </h2>
-          
-        </div>
-        <p className="uppercase text-[0.8rem] sm:text-base tracking-widest font-bold font-rubik">
+          <p className="uppercase text-[0.8rem] sm:text-base tracking-widest font-bold font-rubik">
             web developer based in myanmar
           </p>
-        <button className="mx-auto">
+        </div>
+        
+        <button className="mx-auto grow">
           <svg
             className="w-[50px] h-[55px] hover:text-green-500"
             xmlns="http://www.w3.org/2000/svg"
