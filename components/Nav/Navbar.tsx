@@ -25,6 +25,10 @@ const navLists = [
     name: "Projects",
   },
   {
+    path: "about",
+    name: "About",
+  },
+  {
     path: "contact",
     name: "Contact",
   },
@@ -44,9 +48,9 @@ const Navbar = () => {
             smooth={true}
             offset={-30}
             duration={1000}
-            className="hover:cursor-pointer hover:text-green-600 lg:!text-base  2xl:!text-lg font-semibold"
+            className="hover:cursor-pointer hover:text-[#00bfff] lg:!text-base  2xl:!text-lg font-semibold"
             activeStyle={{
-              color: "#16a34a",
+              color: "#00bfff",
             }}
             // style={{fontSize:16,
 
@@ -55,9 +59,9 @@ const Navbar = () => {
             {nav.name}
           </ScrollLink>
         ))}
-        <li className="flex items-center ml-10">
+        {/* <li className="flex items-center ml-10">
           <IconSun />
-        </li>
+        </li> */}
       </div>
 
       <Sheet>
@@ -80,9 +84,9 @@ const Navbar = () => {
             smooth={true}
             offset={-30}
             duration={900}
-            className="hover:cursor-pointer hover:text-green-600 !text-2xl font-semibold"
+            className="hover:cursor-pointer hover:text-[#00bfff] !text-2xl font-semibold"
             activeStyle={{
-              color: "#16a34a",
+              color: "#00bfff",
             }}
             // style={{fontSize:16,
 

@@ -7,6 +7,7 @@ import {IconWorldWww} from "@tabler/icons-react"
 const Project = ({ indx }: ProjectProps) => {
   return (
     <div
+      data-scroll
       className={` h-fit mx-auto overflow-hidden bg-[#223148] rounded-md text-white pb-4 ${
         indx % 2
           ? " w-[90%] sm:w-[85%]  lg:w-[calc(50%-20px)] text-black  pb-9"

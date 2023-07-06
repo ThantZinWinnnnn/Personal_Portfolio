@@ -16,6 +16,12 @@ module.exports = {
       },
     },
     extend: {
+      gridTemplateColumns:{
+        '100':"repeat(20,1fr)"
+      },
+      gridTemplateRows:{
+        "200":"repeat(20,1fr)"
+      },
       fontFamily:{
         rubik: ['"Rubik"', "sans-serif"],
       },
@@ -71,10 +77,30 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        wave: {
+          '0%': { transform: 'rotate(0.0deg)' },
+          '10%': { transform: 'rotate(14deg)' },
+          '20%': { transform: 'rotate(-8deg)' },
+          '30%': { transform: 'rotate(14deg)' },
+          '40%': { transform: 'rotate(-4deg)' },
+          '50%': { transform: 'rotate(10.0deg)' },
+          '60%': { transform: 'rotate(0.0deg)' },
+          '100%': { transform: 'rotate(0.0deg)' },
+        },
+        animBack: {
+          '0%': {
+            top: '-60px',
+          },
+          '100%': {
+            top: '430%',
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "wave-hand":"wave 2s linear infinite",
+        "bg-ani":"animBack 7s linear infinite"
       },
     },
   },

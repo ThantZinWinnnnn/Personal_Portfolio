@@ -8,8 +8,8 @@ const IntroText = () => {
     <section id="home" data-scroll data-scroll-speed="0.3" className="text-white h-screen flex items-center justify-cente box-border ">
       <div className="flex flex-col gap-40 text-center mt-32 box-border w-full overflow-hidden">
         <div className="flex flex-col gap-10 sm:gap-14">
-          <h1 className="md:text-2xl xl:text-8xl font-extrabold">
-            Hey<span className="hover:animate-pulse inline-block">👋</span>I am,
+          <h1 className="md:text-2xl xl:text-8xl font-extrabold text-[#00bfff]">
+            Hey<span className="animate-wave-hand inline-block">👋</span>I am,
           </h1>
           <h2 className="flex items-center justify-center">
             {text.map((text, i) => (
@@ -28,7 +28,7 @@ const IntroText = () => {
         
         <button className="mx-auto grow">
           <svg
-            className="w-[50px] h-[55px] hover:text-green-500"
+            className="w-[50px] h-[55px] hover:text-[#00bfff]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
