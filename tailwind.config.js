@@ -24,6 +24,7 @@ module.exports = {
       },
       fontFamily:{
         rubik: ['"Rubik"', "sans-serif"],
+        poppins: ['"Poppins"', "sans-serif"],
       },
       screens:{
         "2k":"2048px"

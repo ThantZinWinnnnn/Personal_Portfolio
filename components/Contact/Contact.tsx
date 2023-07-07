@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 
 const Contact = () => {
   return (
-    <section id="contact" className="min-h-screen pt-16 flex flex-col justify-between overflow-y-scroll">
+    <section id="contact" className="min-h-screen pt-16 flex flex-col justify-between overflow-y-scroll font-poppins">
       <div className="w-full flex items-center gap-8 lg:gap-0 flex-col sm:flex-row">
         <MessageForm />
         <MapChart/>

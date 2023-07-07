@@ -5,10 +5,10 @@ const text = ["T", "H", "A", "N", "T", " ", "Z", "I", "N", " ", "W", "I", "N"];
 
 const IntroText = () => {
   return (
-    <section id="home" data-scroll data-scroll-speed="0.3" className="text-white h-screen flex items-center justify-cente box-border ">
-      <div className="flex flex-col gap-40 text-center mt-32 box-border w-full overflow-hidden">
+    <section id="home" data-scroll data-scroll-speed="0.3" className="text-white h-screen flex items-center justify-center box-border ">
+      <div className="flex flex-col gap-40 text-center mt-32 box-border w-full overflow-hidden justify-center">
         <div className="flex flex-col gap-10 sm:gap-14">
-          <h1 className="md:text-2xl xl:text-8xl font-extrabold text-[#00bfff]">
+          <h1 className="md:text-2xl xl:text-8xl font-extrabold text-[#00bfff] font-poppins">
             Hey<span className="animate-wave-hand inline-block">👋</span>I am,
           </h1>
           <h2 className="flex items-center justify-center">

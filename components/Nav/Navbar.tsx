@@ -36,7 +36,7 @@ const navLists = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between text-white text-sm fixed w-full top-0 z-50  backdrop-blur-3xl h-[48px] pt-2 px-6 lg:px-10 xl:px-12 2k:px-[10%]">
+    <nav className="font-poppins flex items-center justify-between text-white text-sm fixed w-full top-0 z-50  backdrop-blur-md h-[48px] pt-2 px-6 lg:px-10 xl:px-12 2k:px-[10%]">
       <div className="flex items-center 2xl:text-2xl">WINN</div>
       <div className=" items-center gap-12 cursor-pointer hidden md:flex">
         {navLists.map((nav, i) => (
@@ -74,7 +74,7 @@ const Navbar = () => {
         <SheetHeader>
           <SheetTitle>Menu</SheetTitle>
         </SheetHeader>
-        <div className="flex flex-col gap-10 justify-center items-center mt-40">
+        <div className="flex flex-col gap-10 justify-center items-center mt-40 font-poppins">
         {navLists.map((nav, i) => (
           <ScrollLink
             key={i}
