@@ -9,6 +9,12 @@ import ShowSkill from "@/components/Skills/skill.page";
 import ProjectsPage from "@/components/projects/project.page";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
+import {motion} from 'framer-motion'
+
+
+
+
+
 
 export default function Home() {
   useEffect(() => {
@@ -18,13 +24,15 @@ export default function Home() {
     })();
   }, []);
 
+  console.log("renderpage")
+
   return (
-    <main className="h-screen lg:container lg:mx-auto">
+    <div className="h-screen lg:container lg:mx-auto">
       <IntroText />
       <ProjectsPage />
       <ProfileDetail />
       <ShowSkill />
       <Contact />
-    </main>
+    </div>
   );
 }

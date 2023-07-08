@@ -45,11 +45,11 @@ const MessageForm = () => {
   });
   if (true) {
     formSubmitSuccess();
-    
+    form.reset()
 }
 
   return (
-    <section className="w-full sm:w-1/2 flex flex-col items-center px-4 sm:pl-12 lg:pl-0">
+    <div className="w-full sm:w-1/2 flex flex-col items-center px-4 sm:pl-12 lg:pl-0">
       <Toaster  position="top-center" reverseOrder={true}/>
       <h4 className="text-2xl text-center font-semibold font-rubik text-white mb-8">
         Contact Me
@@ -108,7 +108,7 @@ const MessageForm = () => {
           </Button>
         </form>
       </Form>
-    </section>
+    </div>
   );
 };
 

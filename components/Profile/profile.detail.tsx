@@ -5,6 +5,7 @@ import { IconMail, IconDownload } from "@tabler/icons-react";
 import { Link } from "react-scroll";
 
 const ProfileDetail = () => {
+  console.log("render profile")
   return (
     <section
       id="about"

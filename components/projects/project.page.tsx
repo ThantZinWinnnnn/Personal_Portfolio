@@ -2,17 +2,19 @@
 import React from 'react'
 import Project from './Project'
 import Container from '../utils/Container';
+import { projectsData } from '../utils/data';
 
 const pjArr = Array.from({length: 4}, (_, i) => i);
 
 const ProjectsPage = () => {
+  console.log("render project")
   return (
   <Container>
       <h2 className='text-2xl font-semibold text-white text-center mt-4 mb-12 uppercase font-poppins'>Featured Projects</h2>
        <div className='flex flex-wrap gap-y-14 lg:gap-x-10 w-full flex-col lg:flex-row'>
        {
-            pjArr.map((p,i)=>(
-                <Project key={i} indx={i}/>
+            projectsData.map((p,i)=>(
+                <Project key={i} indx={i} project={p}/>
             ))
         }
        </div>

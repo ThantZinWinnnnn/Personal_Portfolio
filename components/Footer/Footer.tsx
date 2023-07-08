@@ -24,7 +24,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="py-8 relative text-white before:w-full before:absolute before:h-[2px] before:bg-[url('/images/dash.svg')] after:absolute after:h-[2px] after:w-full after:bg-[url('/images/dash.svg')] overflow-hidden mb-1">
+    <div className="py-8 relative text-white before:w-full before:absolute before:h-[2px] before:bg-[url('/images/dash.svg')] after:absolute after:h-[2px] after:w-full after:bg-[url('/images/dash.svg')] overflow-hidden mb-1">
       <div className="flex flex-col sm:flex-row justify-between mb-4 px-8 gap-y-4 sm:gap-y-0">
         <div className="">
           <h5 className="my-4 text-center sm:text-left">Connection</h5>
@@ -142,7 +142,7 @@ const Footer = () => {
           </TooltipProvider>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

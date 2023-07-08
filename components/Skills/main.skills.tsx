@@ -2,6 +2,7 @@ import React from 'react'
 import SkillIcon from './skill.icon'
 
 const Skills = ({text,iconsArr}:SkillsProps) => {
+    console.log("rendser skills")
   return (
     <div className='max-w-[80rem] mx-auto text-white px-4 sm:px-0'>
         <h4 className='font-rubik text-center text-2xl lg:font-semibold mb-10'>{text}</h4>

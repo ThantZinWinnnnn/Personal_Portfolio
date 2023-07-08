@@ -48,7 +48,7 @@ const Navbar = () => {
             smooth={true}
             offset={-30}
             duration={1000}
-            className="hover:cursor-pointer hover:text-[#00bfff] lg:!text-base  2xl:!text-lg font-semibold"
+            className="hover:cursor-pointer hover:text-[#00bfff] lg:!text-base  2xl:!text-lg font-semibold backdrop-blur-md"
             activeStyle={{
               color: "#00bfff",
             }}

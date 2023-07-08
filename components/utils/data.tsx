@@ -54,3 +54,34 @@ export const familiar = [
     tooltip: "Web-based designing tool",
   },
 ];
+
+export const projectsData = [
+  {
+    title: "Auction Website",
+    projectImage: "/images/Auction-final.png",
+    projectDetail:
+      "Web application that allows users to bid on items. Users can bid on items and then the highest bidder is awarded the item.",
+    projectUrl:"https://auction-kappa.vercel.app/"
+  },
+  {
+    title: "Ecommerce Shop",
+    projectImage: "/images/ecommerce-final.png",
+    projectDetail:
+      "Ecommerce Mini Website with Stripe payment",
+    projectUrl:"https://stripe-sanity-ecommerce-xi.vercel.app/"
+  },
+  {
+    title: "Bank Landing Page",
+    projectImage: "/images/bank-final.png",
+    projectDetail:
+      "Discover a modern and user-friendly banking website that makes managing your finances effortless and enjoyable.",
+    projectUrl:""
+  },
+  {
+    title: "Bank Dashboard Page",
+    projectImage: "/images/dashboard-final.png",
+    projectDetail:
+      "dynamic and interactive dashboard that provides a comprehensive overview offinancial activities in real-time.",
+    projectUrl:""
+  },
+];
