@@ -8,31 +8,26 @@ import ProfileDetail from "@/components/Profile/profile.detail";
 import ShowSkill from "@/components/Skills/skill.page";
 import ProjectsPage from "@/components/projects/project.page";
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import {useEffect, useRef} from "react";
 import {motion} from 'framer-motion'
 
 
-
-
-
-
 export default function Home() {
-  useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-      const locomotiveScroll = new LocomotiveScroll();
-    })();
-  }, []);
+    useEffect(() => {
+        (async () => {
+            const LocomotiveScroll = (await import("locomotive-scroll")).default;
+            const locomotiveScroll = new LocomotiveScroll();
+        })();
+    }, []);
 
-  console.log("renderpage")
 
-  return (
-    <div className="h-screen lg:container lg:mx-auto">
-      <IntroText />
-      <ProjectsPage />
-      <ProfileDetail />
-      <ShowSkill />
-      <Contact />
-    </div>
-  );
+    return (
+        <div className="h-screen lg:container lg:mx-auto">
+            <IntroText/>
+            <ProjectsPage/>
+            <ProfileDetail/>
+            <ShowSkill/>
+            <Contact/>
+        </div>
+    );
 }
