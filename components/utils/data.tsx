@@ -75,13 +75,13 @@ export const projectsData = [
         projectImage: "/images/bank-final.png",
         projectDetail:
             "Discover a modern and user-friendly banking website that makes managing your finances effortless and enjoyable.",
-        projectUrl: ""
+        projectUrl: "https://banking-website-ten.vercel.app/"
     },
     {
         title: "Bank Dashboard Page",
         projectImage: "/images/dashboard-final.png",
         projectDetail:
-            "dynamic and interactive dashboard that provides a comprehensive overview offinancial activities in real-time.",
-        projectUrl: ""
+            "dynamic and interactive dashboard that provides a comprehensive overview offinancial activities in real-time.(Currently,developing)",
+        projectUrl: "https://agent-dashboard-dbcd.vercel.app/"
     },
 ];

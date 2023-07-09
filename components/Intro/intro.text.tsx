@@ -11,21 +11,21 @@ const textContainer = {
         opacity: 1,
         transition: {
             delay: 0.8,
-            staggerChildren: 0.2,
+            staggerChildren: 0.1,
             ease: [0.76, 0, 0.24, 1]
         }
     }
 };
 
 const textItem = {
-    hidden: {opacity: 0, y: 40},
+    hidden: {opacity: 0, x: -100},
     visible: {
         opacity: 1,
-        y: 0,
+        x: 0,
         transition: {
-            duration: 1.2,
-            type: "spring",
-            ease: [0.76, 0, 0.24, 1]
+            type:"spring",
+            duration: 1.6,
+            ease: "easeInOut"
         }
     }
 }
@@ -67,7 +67,7 @@ const IntroText = () => {
                       smooth={true}
                       offset={-30}
                       duration={1000}>
-                    <button className="mx-auto grow">
+                    <motion.button initial={{opacity:0,y:100}} animate={{opacity:1,y:0,transition:{delay:1,duration:2,type:"spring",ease:[0.76,0,0.24,1]}}} className="mx-auto grow">
                         <svg
                             className="w-[50px] h-[55px] hover:text-[#00bfff]"
                             xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const IntroText = () => {
                                 </g>
                             </g>
                         </svg>
-                    </button>
+                    </motion.button>
                 </Link>
             </div>
         </div>
