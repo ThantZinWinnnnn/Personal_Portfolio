@@ -82,6 +82,6 @@ export const projectsData = [
         projectImage: "/images/dashboard-final.png",
         projectDetail:
             "dynamic and interactive dashboard that provides a comprehensive overview offinancial activities in real-time.(Currently,developing)",
-        projectUrl: "https://agent-dashboard-dbcd.vercel.app/"
+        projectUrl: "https://smart-agent-dashboard.vercel.app/"
     },
 ];
