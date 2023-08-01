@@ -49,7 +49,7 @@ const ProfileDetail = () => {
                             icon={<IconDownload className="group-hover:animate-bounce"/>}
                             handler={(e: React.MouseEvent<HTMLButtonElement>) => {
                                 e.preventDefault();
-                                window.location.href = "/file/TZWResume.pdf";
+                                window.location.href = "/file/Resume.pdf";
                             }}
                         />
                     </div>
