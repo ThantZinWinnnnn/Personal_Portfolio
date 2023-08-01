@@ -57,6 +57,13 @@ export const familiar = [
 
 export const projectsData = [
     {
+        title: "Apple TV Website",
+        projectImage: "/images/apple.jpg",
+        projectDetail:
+            "Apple TV website clone with Nextjs and Scss",
+        projectUrl: "https://apple-tv-clone-pj.vercel.app/"
+    },
+    {
         title: "Auction Website",
         projectImage: "/images/Auction-final.png",
         projectDetail:
@@ -74,7 +81,7 @@ export const projectsData = [
         title: "Bank Landing Page",
         projectImage: "/images/bank-final.png",
         projectDetail:
-            "Discover a modern and user-friendly banking website that makes managing your finances effortless and enjoyable.",
+            "banking website that makes managing your finances effortless and enjoyable.",
         projectUrl: "https://banking-website-ten.vercel.app/"
     },
     {
