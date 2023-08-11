@@ -56,13 +56,13 @@ export const familiar = [
 ];
 
 export const projectsData = [
-    {
-        title: "Apple TV Website",
-        projectImage: "/images/apple.jpg",
-        projectDetail:
-            "Apple TV website clone with Nextjs and Scss",
-        projectUrl: "https://apple-tv-clone-pj.vercel.app/"
-    },
+    // {
+    //     title: "Apple TV Website",
+    //     projectImage: "/images/apple.jpg",
+    //     projectDetail:
+    //         "Apple TV website clone with Nextjs and Scss",
+    //     projectUrl: "https://apple-tv-clone-pj.vercel.app/"
+    // },
     {
         title: "Auction Website",
         projectImage: "/images/Auction-final.png",
