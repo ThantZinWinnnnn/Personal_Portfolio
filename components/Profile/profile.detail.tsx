@@ -14,6 +14,7 @@ const ProfileDetail = () => {
             <h3 className="text-center my-16 text-xl  sm:text-3xl font-rubik sm:font-bold">
                 Who am I ?
             </h3>
+            
             <div className="flex flex-col-reverse lg:flex-row">
                 <div className="w-full text-center lg:text-left lg:w-[50%] lg:pr-24">
                     <p className="leading-7 lg:leading-9 lg:text-xl font-rubik tracking-wide  mt-10 lg:mt-0 xl:mt-10">
