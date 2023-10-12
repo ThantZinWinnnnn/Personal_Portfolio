@@ -56,13 +56,14 @@ export const familiar = [
 ];
 
 export const projectsData = [
-    // {
-    //     title: "Apple TV Website",
-    //     projectImage: "/images/apple.jpg",
-    //     projectDetail:
-    //         "Apple TV website clone with Nextjs and Scss",
-    //     projectUrl: "https://apple-tv-clone-pj.vercel.app/"
-    // },
+    {
+        title: "Trello Clone",
+        projectImage: "/images/test2.png",
+        projectDetail:
+            "A minimalistic clone of Trello that allows users to manage their tasks.",
+        projectUrl: "https://trello-clone-proj.vercel.app/",
+
+    },
     {
         title: "Auction Website",
         projectImage: "/images/Auction-final.png",
@@ -77,18 +78,18 @@ export const projectsData = [
             "Ecommerce Mini Website with Stripe payment",
         projectUrl: "https://stripe-sanity-ecommerce-xi.vercel.app/"
     },
-    {
-        title: "Bank Landing Page",
-        projectImage: "/images/bank-final.png",
-        projectDetail:
-            "banking website that makes managing your finances effortless and enjoyable.",
-        projectUrl: "https://banking-website-ten.vercel.app/"
-    },
+    // {
+    //     title: "Bank Landing Page",
+    //     projectImage: "/images/bank-final.png",
+    //     projectDetail:
+    //         "banking website that makes managing your finances effortless and enjoyable.",
+    //     projectUrl: "https://banking-website-ten.vercel.app/"
+    // },
     {
         title: "Bank Dashboard Page",
         projectImage: "/images/dashboard-final.png",
         projectDetail:
-            "dynamic and interactive dashboard that provides a comprehensive overview offinancial activities in real-time.(Currently,developing)",
+            "dynamic and interactive dashboard that provides a comprehensive overview offinancial activities in real-time",
         projectUrl: "https://smart-agent-dashboard.vercel.app/"
     },
 ];
