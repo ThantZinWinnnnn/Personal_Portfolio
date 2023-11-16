@@ -5,7 +5,7 @@ import Link from "next/link";
 import {IconWorldWww} from "@tabler/icons-react";
 import {projectAni, projectAniRight, projectContainer} from "@/components/utils/anim";
 import {motion} from "framer-motion";
-// import LinkButton from "./LinkButton";
+
 
 const Project = ({indx, project}: ProjectProps) => {
 
