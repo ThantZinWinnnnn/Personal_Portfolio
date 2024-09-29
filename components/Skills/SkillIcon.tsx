@@ -12,12 +12,14 @@ const SkillIcon = ({ icon, title, tooltip }: IconProps) => {
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger className="overflow-hidden">
-            <div className="relative w-[40px] h-[40px]">
+          <div className="relative w-[40px] h-[40px]">
             <Image fill src={icon} alt={title} />
-            </div>
+          </div>
         </TooltipTrigger>
         <TooltipContent>
-          <p className="transition-all duration-500 ease-out"><b>{title}:</b> {tooltip}</p>
+          <p className="transition-all duration-500 ease-out">
+            <b>{title}:</b> {tooltip}
+          </p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
